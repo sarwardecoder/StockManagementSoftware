@@ -11,7 +11,36 @@
 <body>
 
 
-    <button class="btn btn-primary"> button</button>
+    <!-- creating table  -->
+
+    <table class="table table-stipe table-dark">
+
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+
+    </table>
 
     <script src="js\bootstrap.bundle.js"></script>
 </body>
