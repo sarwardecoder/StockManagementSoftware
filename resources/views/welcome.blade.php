@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage any stocks of your products at ease</title>
+    <title>Manage any inventory stocks at ease</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
@@ -12,23 +12,23 @@
 
 
     <!-- creating table  -->
-
+    <p class="h1 text-center">Dashboard</p>
     <table class="table table-stipe table-dark">
 
         <tr>
-            <td>A</td>
+            <td>SL</td>
             <td>B</td>
             <td>C</td>
             <td>D</td>
         </tr>
         <tr>
-            <td>A</td>
+            <td>Products</td>
             <td>B</td>
             <td>C</td>
             <td>D</td>
         </tr>
         <tr>
-            <td>A</td>
+            <td>Sales</td>
             <td>B</td>
             <td>C</td>
             <td>D</td>
