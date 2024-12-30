@@ -9,32 +9,39 @@
 </head>
 
 <body>
-    <!-- nav bar-->
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
-            <div class="bg-dark col-auto col-md-2 min-vh-100">
-                <a class="d-flex text-decoration-none mt-1 align-items-center">
-                    <h1>Side Bar</h1>
-                </a>
-                <ul class="nav nav-pills flex-column text-white">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Employees</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Products</a>
-                    </li>
 
-                </ul>
+    <!-- navigation part start -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="" alt="">InventoryTiger</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="employee.html">Employee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sales.html">Sales</a>
+                        </li>
+                    </ul>
+                    <button class="login">Login</button>
+                </div>
             </div>
-        </div>
+        </nav>
+    </header>
 
-    </div>
+
     <!-- creating table  -->
     <p class="h1 text-center bg-info text-dark p-3">Welcome to your Dashboard</p>
     <p class="h2 text-center">Products</p>
