@@ -13,10 +13,10 @@
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <div class="bg-dark col-auto col-md-2 min-vh-100">
-                <a class="d-flex text-decoration-none align-items-center">
+                <a class="d-flex text-decoration-none mt-1 align-items-center">
                     <h1>Side Bar</h1>
                 </a>
-                <ul class="nav nav-pills flex-column">
+                <ul class="nav nav-pills flex-column text-white">
                     <li class="nav-item">
                         <a href="#" class="nav-link active">Dashboard</a>
                     </li>
@@ -39,94 +39,99 @@
     <p class="h1 text-center bg-info text-dark p-3">Welcome to your Dashboard</p>
     <p class="h2 text-center">Products</p>
 
-    <table class="table table-stipe table-dark p-3">
+    <div class="bg-dark col-auto col-md-10 min-vh-100">
 
-        <tr>
-            <td>SL</td>
-            <td>Products</td>
-            <td>Sales</td>
-            <td>Employees</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Products</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
 
-    </table>
+        <table class="table table-stipe table-dark p-3">
 
-    <p class="h2 text-center">Sales</p>
-    <table class="table table-stipe table-dark p-3">
+            <tr>
+                <td>SL</td>
+                <td>Products</td>
+                <td>Sales</td>
+                <td>Employees</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Products</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
 
-        <tr>
-            <td>SL</td>
-            <td>Products</td>
-            <td>Sales</td>
-            <td>Employees</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Products</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
+        </table>
 
-    </table>
+        <p class="h2 text-center">Sales</p>
+        <table class="table table-stipe table-dark p-3">
 
-    <p class="h2 text-center">Employees</p>
-    <table class="table table-stipe table-dark p-3">
+            <tr>
+                <td>SL</td>
+                <td>Products</td>
+                <td>Sales</td>
+                <td>Employees</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Products</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
 
-        <tr>
-            <td>SL</td>
-            <td>Products</td>
-            <td>Sales</td>
-            <td>Employees</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Products</td>
-            <td>C</td>
-            <td>D</td>
-        </tr>
+        </table>
 
-    </table>
+        <p class="h2 text-center">Employees</p>
+        <table class="table table-stipe table-dark p-3">
+
+            <tr>
+                <td>SL</td>
+                <td>Products</td>
+                <td>Sales</td>
+                <td>Employees</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Products</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+
+        </table>
+    </div>
+
 
     <script src="js\bootstrap.bundle.js"></script>
 </body>
