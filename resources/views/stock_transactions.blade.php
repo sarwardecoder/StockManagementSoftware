@@ -9,7 +9,7 @@
     <div class="row pt-5">
         <div class="col-md-12">
 
-            <h3 class="text-success fw-bold text-center py-5">EMPLOYEE</h3>
+            <h3 class="text-success fw-bold text-center py-5">Stock Transactions</h3>
 
             <table class="table table-light table-responsive table-hover table-dark">
                 <tr class="">

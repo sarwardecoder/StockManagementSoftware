@@ -6,14 +6,21 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/employee', function () {
-    return view('employee');
+Route::get('/users', function () {
+    return view('users');
 });
 
 Route::get('/products', function () {
     return view('products');
 });
 
-Route::get('/sales', function () {
-    return view('sales');
+Route::get('/orders', function () {
+    return view('orders');
+});
+
+Route::get('/order_details', function () {
+    return view('order_details');
+});
+Route::get('/stock_transactions', function () {
+    return view('stock_transactions');
 });

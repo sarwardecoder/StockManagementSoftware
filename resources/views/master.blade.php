@@ -29,14 +29,22 @@
                             <a class="nav-link" href={{"/"}}>Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href={{"employee"}}>Employee</a>
+                            <a class="nav-link" href={{"users"}}>Users</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href={{"products"}}>Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href={{"sales"}}>Sales</a>
+                            <a class="nav-link" href={{"orders"}}>Orders</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={{"order_details"}}>Order Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href={{"stock_transactions"}}>Stock Transactions</a>
+                        </li>
+
+
                     </ul>
                     <button class="login">Login</button>
                 </div>

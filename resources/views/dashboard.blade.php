@@ -4,9 +4,8 @@
 
 <!-- creating table  -->
 <p class="h1 text-center bg-info text-dark p-3">Welcome to your Dashboard</p>
-<p class="h2 text-center">Products</p>
 
-<div class="bg-dark col-auto col-md-10 min-vh-100">
+<div class="bg-dark col-auto col-md-12 min-vh-100">
 
 
     <table class="table table-stipe table-dark p-3">
@@ -38,7 +37,7 @@
 
     </table>
 
-    <p class="h2 text-center">Sales</p>
+    <p class="h2 text-center">Orders</p>
     <table class="table table-stipe table-dark p-3">
 
         <tr>
