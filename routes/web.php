@@ -21,6 +21,10 @@ Route::get('/orders', function () {
 Route::get('/order_details', function () {
     return view('order_details');
 });
+Route::get('/suppliers', function () {
+    return view('suppliers');
+});
 Route::get('/stock_transactions', function () {
     return view('stock_transactions');
 });
+

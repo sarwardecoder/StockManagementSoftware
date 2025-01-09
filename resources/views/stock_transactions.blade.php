@@ -15,12 +15,10 @@
                 <tr class="">
                     <th>id</th>
                     <th>name</th>
-                    <th>role</th>
-                    <th>email</th>
-                    <th>phone</th>
-                    <th>salary</th>
-                    <th>date_of_hire</th>
-                    <th>password</th>
+                    <th>category</th>
+                    <th>price</th>
+                    <th>stock</th>
+                    <th>description</th>
                     <th>create_at</th>
                     <th>updated_at</th>
                 </tr>
@@ -33,8 +31,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>2</td>
@@ -45,8 +42,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>3</td>
@@ -57,8 +53,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>4</td>
@@ -69,8 +64,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>5</td>
@@ -81,8 +75,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>6</td>
@@ -93,8 +86,8 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
+
                 </tr>
                 <tr>
                     <td>7</td>
@@ -105,8 +98,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>8</td>
@@ -117,8 +109,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>9</td>
@@ -129,8 +120,7 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
                 <tr>
                     <td>10</td>
@@ -141,6 +131,115 @@
                     <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
+
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>Z</td>
+                    <td>Z</td>
+
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
                 </tr>
@@ -148,6 +247,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 @endsection

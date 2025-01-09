@@ -41,6 +41,9 @@
                             <a class="nav-link" href={{"order_details"}}>Order Details</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href={{"suppliers"}}>Suppliers</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href={{"stock_transactions"}}>Stock Transactions</a>
                         </li>
 
