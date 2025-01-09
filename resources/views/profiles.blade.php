@@ -9,13 +9,15 @@
     <div class="row pt-5">
         <div class="col-md-12">
 
-            <h3 class="text-success fw-bold text-center py-5">Users</h3>
+            <h3 class="text-success fw-bold text-center py-5">Profiles</h3>
 
             <table class="table table-light table-responsive table-hover table-dark">
                 <tr class="">
-                    <th>ID</th>
-                    <th>Email</th>
-                    <th>otp</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Mobile</th>
+                    <th>Shipping Address</th>
+                    <th>Profile Email</th>
                     <th>create_at</th>
                     <th>updated_at</th>
                 </tr>
@@ -133,7 +135,7 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>a</td>  
+                    <td>a</td>
                     <td>Z</td>
                     <td>Z</td>
                     <td>Z</td>

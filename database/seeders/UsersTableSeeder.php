@@ -16,18 +16,28 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Rafi',
-                'email' => 'rafi@example.com',
-                'phone' => '018xxxxxxx1',
-                'salary' => 3500,
+
+                'email' => 'moni@example.com',
+                'otp' => 3505,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'name' => 'Ahad',
-                'email' => 'ahad@example.com',
-                'phone' => '018xxxxxxx2',
-                'salary' => 3200,
+                'email' => 'karim@example.com',
+                'otp' => 4562,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+
+                'email' => 'ruhina@example.com',
+                'otp' => 3515,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'email' => 'lalona@example.com',
+                'otp' => 7541,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
