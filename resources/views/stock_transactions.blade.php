@@ -14,12 +14,12 @@
             <table class="table table-light table-responsive table-hover table-dark">
                 <tr class="">
                     <th>id</th>
-                    <th>name</th>
-                    <th>category</th>
-                    <th>price</th>
-                    <th>stock</th>
-                    <th>description</th>
-                    <th>create_at</th>
+                    <th>Product Name</th>
+                    <th>Supplier Name</th>
+                    <th>Stock In</th>
+                    <th>Stock Out</th>
+                    <th>Final Stock</th>
+                    <th>created_at</th>
                     <th>updated_at</th>
                 </tr>
                 <tr>

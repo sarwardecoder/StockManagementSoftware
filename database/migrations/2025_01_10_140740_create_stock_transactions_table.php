@@ -13,7 +13,26 @@ return new class extends Migration
     {
         Schema::create('stock_transactions', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table->string('stock_in', 200);
+            $table->string('stock_out', 200);
+            $table->string('final_stock', 200);
+            $table->enum('payment_method', ['cash','bkash','credit_card']);
+            
+            //foreign id
+            $table->string('product_name', 200);
+            $table->string('supplier_name', 200);
+            $table->unsignedBigInteger('order_id');
+            $table->unsignedBigInteger('product_id');
+         
+            //Relation with Products
+            // $table->foreign('product_name')->references('name')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+            $table->foreign('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+            //Relation with Orders
+            $table->foreign('order_id')->references('id')->on('orders')->restrictOnDelete()->cascadeOnUpdate();
+
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
     }
 

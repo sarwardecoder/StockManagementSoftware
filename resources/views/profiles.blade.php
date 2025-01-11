@@ -18,7 +18,7 @@
                     <th>Mobile</th>
                     <th>Shipping Address</th>
                     <th>Profile Email</th>
-                    <th>create_at</th>
+                    <th>created_at</th>
                     <th>updated_at</th>
                 </tr>
                 <tr>

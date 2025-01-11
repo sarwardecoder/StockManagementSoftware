@@ -14,9 +14,11 @@
             <table class="table table-light table-responsive table-hover table-dark">
                 <tr class="">
                     <th>ID</th>
+                    <th>Name</th>
                     <th>Email</th>
-                    <th>otp</th>
-                    <th>create_at</th>
+                    <th>Password</th>
+                    <th>Role</th>
+                    <th>created_at</th>
                     <th>updated_at</th>
                 </tr>
                 <tr>
@@ -26,10 +28,8 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+                    <td>a</td>
+
                 </tr>
                 <tr>
                     <td>2</td>
@@ -38,10 +38,8 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+                    <td>a</td>
+
                 </tr>
                 <tr>
                     <td>3</td>
@@ -50,10 +48,8 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+                    <td>a</td>
+
                 </tr>
                 <tr>
                     <td>4</td>
@@ -62,10 +58,8 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+                    <td>a</td>
+
                 </tr>
                 <tr>
                     <td>5</td>
@@ -74,70 +68,8 @@
                     <td>a</td>
                     <td>a</td>
                     <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>6</td>
                     <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>  
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
-                    <td>Z</td>
+
                 </tr>
             </table>
         </div>

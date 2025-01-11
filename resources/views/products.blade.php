@@ -19,7 +19,7 @@
                     <th>price</th>
                     <th>stock</th>
                     <th>description</th>
-                    <th>create_at</th>
+                    <th>created_at</th>
                     <th>updated_at</th>
                 </tr>
                 <tr>
