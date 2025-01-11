@@ -13,7 +13,21 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table->string('title', 200);
+            $table->string('price', 200);
+            $table->boolean('discount');
+            $table->string('discount_price', 50);
+
+            //foreign id
+            $table->unsignedBigInteger('product_id');
+         
+            //Relation with Products
+            $table->foreign('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
         });
     }
 

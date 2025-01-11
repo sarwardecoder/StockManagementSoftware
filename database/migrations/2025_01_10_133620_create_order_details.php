@@ -13,7 +13,25 @@ return new class extends Migration
     {
         Schema::create('order_details', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table->string('title', 200);
+            $table->string('price', 200);
+            $table->boolean('discount');
+            $table->string('discount_price', 50);
+            $table->enum('payment_method', ['cash','bkash','credit_card']);
+
+            //foreign id
+            $table->unsignedBigInteger('order_id');
+            $table->unsignedBigInteger('product_id');
+         
+            //Relation with Products
+            $table->foreign('product_id')->references('id')->on('products')->restrictOnDelete()->cascadeOnUpdate();
+            //Relation with Orders
+            $table->foreign('order_id')->references('id')->on('orders')->restrictOnDelete()->cascadeOnUpdate();
+
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
         });
     }
 
