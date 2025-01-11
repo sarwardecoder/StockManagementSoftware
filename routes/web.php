@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Product;
 
 Route::get('/', function () {
     return view('dashboard');
@@ -11,7 +12,8 @@ Route::get('/users', function () {
 });
 
 Route::get('/products', function () {
-    return view('products');
+    $products = Product::all(); // Get all products from the database
+    return view('products', compact('products')); // Pass products to Blade view
 });
 
 Route::get('/orders', function () {

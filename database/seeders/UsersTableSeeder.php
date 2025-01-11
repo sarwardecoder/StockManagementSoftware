@@ -17,31 +17,47 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             [
 
+                'name' => 'moni',
                 'email' => 'moni@example.com',
-                'otp' => 3505,
+                'password' => 7541,
+                'role' => 'admin',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
+                'name' => 'karim',
                 'email' => 'karim@example.com',
-                'otp' => 4562,
+                'password' => 7541,
+                'role' => 'user',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
 
+                'name' => 'ruhina',
                 'email' => 'ruhina@example.com',
-                'otp' => 3515,
+                'password' => 7541,
+                'role' => 'user',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
+                'name' => 'lalona',
                 'email' => 'lalona@example.com',
-                'otp' => 7541,
+                'password' => 7541,
+                'role' => 'user',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Add the rest of the users similarly
+            [
+
+                'name' => 'fiona',
+                'email' => 'fiona@example.com',
+                'password' => 7541,
+                'role' => 'user',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }
