@@ -15,16 +15,16 @@
 
             <table class="table table-light table-responsive table-hover table-dark">
                 <thead class="">
-                    <th>id</th>
-                    <th>name</th>
-                    <th>description</th>
-                    <th>price</th>
-                    <th>discount</th>
-                    <th>discount price</th>
-                    <th>image</th>
-                    <th>stock</th>
-                    <th>created_at</th>
-                    <th>updated_at</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                    <th>Discount price</th>
+                    <th>Image</th>
+                    <th>Stock</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
                 </thead>
                 <tbody>
                     @foreach ($products as $product)
