@@ -1,5 +1,5 @@
 @extends('master')
-
+@section('title','products')
 @section('content')
 
 <!-- creating table  -->

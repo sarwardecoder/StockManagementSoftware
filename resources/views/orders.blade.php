@@ -1,4 +1,5 @@
 @extends('master')
+@section('title','orders')
 
 @section('content')
 

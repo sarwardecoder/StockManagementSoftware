@@ -1,4 +1,5 @@
 @extends('master')
+@section('title','suppliers')
 
 @section('content')
 
